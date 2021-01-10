@@ -4,7 +4,7 @@ import hmac
 import hashlib
 import os
 import bcrypt 
-class passwordTester:
+class PasswordTester:
 
     @staticmethod
     def hash_password(password_string):
